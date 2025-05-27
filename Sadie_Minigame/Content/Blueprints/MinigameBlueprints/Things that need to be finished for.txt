@@ -1,14 +1,4 @@
 Things that need to be finished for archery game
 	Game ending
-	Switching turns	after 3 arrows are shot
-		Pool arrows, so same 3 arrows for each player technically
 	Get passed loading screen + make sure game works in actual game
 	Fine-tune player rotation to make less jarring
-	Add some element to make game unique from cannon  shooter, 
-		Player's whose turn it is not can affect the wind to skew the 			arrow?
-
-Things that need to be redone if drive cannot be recovered
-	All rotation things
-	Redo arrow w/force instead of timeline
-	Target position randomization
-	
