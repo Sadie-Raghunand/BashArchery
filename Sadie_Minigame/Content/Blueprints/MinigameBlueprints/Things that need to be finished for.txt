@@ -1,4 +1,5 @@
 Things that need to be finished for archery game
 	Game ending
-	Get passed loading screen + make sure game works in actual game
+	Get passed loading screen + make sure game works in actual game + set up 	reset stuff
 	Fine-tune player rotation to make less jarring
+	
