@@ -4,8 +4,8 @@ public class PlatformManager : ModuleRules
 {
     public PlatformManager(ReadOnlyTargetRules Target) : base(Target)
     {
-        PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
-
+        bUsePrecompiled = true;
+        
         PublicDependencyModuleNames.AddRange(
             new string[]
             {

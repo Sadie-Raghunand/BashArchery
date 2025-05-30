@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeWinBT_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x678EF6B8,
+				0x297169BB,
 				0xF2E481F9,
 				METADATA_PARAMS(nullptr, 0)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeWinBT_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_WinBT.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_WinBT(Z_Construct_UPackage__Script_WinBT, TEXT("/Script/WinBT"), Z_Registration_Info_UPackage__Script_WinBT, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x678EF6B8, 0xF2E481F9));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_WinBT(Z_Construct_UPackage__Script_WinBT, TEXT("/Script/WinBT"), Z_Registration_Info_UPackage__Script_WinBT, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x297169BB, 0xF2E481F9));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

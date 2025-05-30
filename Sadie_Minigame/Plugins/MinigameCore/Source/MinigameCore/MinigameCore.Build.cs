@@ -6,19 +6,8 @@ public class MinigameCore : ModuleRules
 {
 	public MinigameCore(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
-		
-		PublicIncludePaths.AddRange(
-			new string[] {
-			});
-				
-		
-		PrivateIncludePaths.AddRange(
-			new string[] {
-			}
-			);
+		bUsePrecompiled = true;
 			
-		
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
@@ -26,7 +15,7 @@ public class MinigameCore : ModuleRules
 				"LevelSequence", "MovieScene",
 				"UMG", "InputCore", "EnhancedInput"
 			}
-			);
+		);
 			
 		
 		PrivateDependencyModuleNames.AddRange(
@@ -36,16 +25,8 @@ public class MinigameCore : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore"
-				// ... add private dependencies that you statically link with here ...	
 			}
-			);
+		);
 		
-		
-		DynamicallyLoadedModuleNames.AddRange(
-			new string[]
-			{
-				// ... add any modules that your module loads dynamically here ...
-			}
-			);
 	}
 }

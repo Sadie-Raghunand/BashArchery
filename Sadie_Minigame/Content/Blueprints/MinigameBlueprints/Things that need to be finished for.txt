@@ -1,5 +1,11 @@
 Things that need to be finished for archery game
-	Game ending
-	Get passed loading screen + make sure game works in actual game + set up 	reset stuff
-	Fine-tune player rotation to make less jarring
-	
+	Get passed loading screen + make sure game works in actual game
+
+Bugs:
+
+	Fix spawn order going into player arrays
+	Fix camera movement between player turns
+
+Change rotation from IA_Rotation to rotation component on player!!!
+
+

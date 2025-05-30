@@ -37,7 +37,7 @@ void EmptyLinkFunctionForGeneratedCodeLimbitlessBluetoothPlugin_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xA374AEA4,
+				0x9759E6A1,
 				0x5F96125C,
 				METADATA_PARAMS(nullptr, 0)
 			};
@@ -45,5 +45,5 @@ void EmptyLinkFunctionForGeneratedCodeLimbitlessBluetoothPlugin_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_LimbitlessBluetoothPlugin.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_LimbitlessBluetoothPlugin(Z_Construct_UPackage__Script_LimbitlessBluetoothPlugin, TEXT("/Script/LimbitlessBluetoothPlugin"), Z_Registration_Info_UPackage__Script_LimbitlessBluetoothPlugin, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xA374AEA4, 0x5F96125C));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_LimbitlessBluetoothPlugin(Z_Construct_UPackage__Script_LimbitlessBluetoothPlugin, TEXT("/Script/LimbitlessBluetoothPlugin"), Z_Registration_Info_UPackage__Script_LimbitlessBluetoothPlugin, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x9759E6A1, 0x5F96125C));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

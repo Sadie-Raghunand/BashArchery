@@ -15,6 +15,15 @@ void EmptyLinkFunctionForGeneratedCodeGraphPlot() {}
 	UMG_API UClass* Z_Construct_UClass_UUserWidget();
 	UPackage* Z_Construct_UPackage__Script_LimbitlessBluetoothPlugin();
 // End Cross Module References
+	DEFINE_FUNCTION(UGraphPlot::execMarkValue)
+	{
+		P_GET_PROPERTY(FStrProperty,Z_Param_Key);
+		P_GET_PROPERTY(FFloatProperty,Z_Param_Value);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->MarkValue(Z_Param_Key,Z_Param_Value);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UGraphPlot::execGetCurrentMinValue)
 	{
 		P_FINISH;
@@ -43,6 +52,7 @@ void EmptyLinkFunctionForGeneratedCodeGraphPlot() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "GetCurrentMaxValue", &UGraphPlot::execGetCurrentMaxValue },
 			{ "GetCurrentMinValue", &UGraphPlot::execGetCurrentMinValue },
+			{ "MarkValue", &UGraphPlot::execMarkValue },
 			{ "SetData", &UGraphPlot::execSetData },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -110,6 +120,43 @@ void EmptyLinkFunctionForGeneratedCodeGraphPlot() {}
 		if (!ReturnFunction)
 		{
 			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UGraphPlot_GetCurrentMinValue_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UGraphPlot_MarkValue_Statics
+	{
+		struct GraphPlot_eventMarkValue_Parms
+		{
+			FString Key;
+			float Value;
+		};
+		static const UECodeGen_Private::FStrPropertyParams NewProp_Key;
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_Value;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UGraphPlot_MarkValue_Statics::NewProp_Key = { "Key", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(GraphPlot_eventMarkValue_Parms, Key), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UGraphPlot_MarkValue_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(GraphPlot_eventMarkValue_Parms, Value), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UGraphPlot_MarkValue_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UGraphPlot_MarkValue_Statics::NewProp_Key,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UGraphPlot_MarkValue_Statics::NewProp_Value,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGraphPlot_MarkValue_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Graph Data" },
+		{ "ModuleRelativePath", "Public/Widgets/GraphPlot.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGraphPlot_MarkValue_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGraphPlot, nullptr, "MarkValue", nullptr, nullptr, sizeof(Z_Construct_UFunction_UGraphPlot_MarkValue_Statics::GraphPlot_eventMarkValue_Parms), Z_Construct_UFunction_UGraphPlot_MarkValue_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGraphPlot_MarkValue_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UGraphPlot_MarkValue_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UGraphPlot_MarkValue_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UGraphPlot_MarkValue()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UGraphPlot_MarkValue_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -186,6 +233,14 @@ void EmptyLinkFunctionForGeneratedCodeGraphPlot() {}
 #endif
 		static const UECodeGen_Private::FStructPropertyParams NewProp_GridLineColor;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MarkLineThickness_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_MarkLineThickness;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MarkLineColor_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_MarkLineColor;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_SampleLineThickness_MetaData[];
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_SampleLineThickness;
@@ -225,6 +280,7 @@ void EmptyLinkFunctionForGeneratedCodeGraphPlot() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGraphPlot_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UGraphPlot_GetCurrentMaxValue, "GetCurrentMaxValue" }, // 262708330
 		{ &Z_Construct_UFunction_UGraphPlot_GetCurrentMinValue, "GetCurrentMinValue" }, // 572480762
+		{ &Z_Construct_UFunction_UGraphPlot_MarkValue, "MarkValue" }, // 1376838468
 		{ &Z_Construct_UFunction_UGraphPlot_SetData, "SetData" }, // 2734260673
 	};
 #if WITH_METADATA
@@ -268,6 +324,20 @@ void EmptyLinkFunctionForGeneratedCodeGraphPlot() {}
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGraphPlot_Statics::NewProp_GridLineColor = { "GridLineColor", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UGraphPlot, GridLineColor), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(Z_Construct_UClass_UGraphPlot_Statics::NewProp_GridLineColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGraphPlot_Statics::NewProp_GridLineColor_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGraphPlot_Statics::NewProp_MarkLineThickness_MetaData[] = {
+		{ "Category", "Graph Properties" },
+		{ "ModuleRelativePath", "Public/Widgets/GraphPlot.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UGraphPlot_Statics::NewProp_MarkLineThickness = { "MarkLineThickness", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UGraphPlot, MarkLineThickness), METADATA_PARAMS(Z_Construct_UClass_UGraphPlot_Statics::NewProp_MarkLineThickness_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGraphPlot_Statics::NewProp_MarkLineThickness_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGraphPlot_Statics::NewProp_MarkLineColor_MetaData[] = {
+		{ "Category", "Graph Properties" },
+		{ "ModuleRelativePath", "Public/Widgets/GraphPlot.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGraphPlot_Statics::NewProp_MarkLineColor = { "MarkLineColor", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UGraphPlot, MarkLineColor), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(Z_Construct_UClass_UGraphPlot_Statics::NewProp_MarkLineColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGraphPlot_Statics::NewProp_MarkLineColor_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGraphPlot_Statics::NewProp_SampleLineThickness_MetaData[] = {
 		{ "Category", "Graph Properties" },
@@ -334,6 +404,8 @@ void EmptyLinkFunctionForGeneratedCodeGraphPlot() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGraphPlot_Statics::NewProp_NumHorizontalLines,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGraphPlot_Statics::NewProp_GridLineThickness,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGraphPlot_Statics::NewProp_GridLineColor,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGraphPlot_Statics::NewProp_MarkLineThickness,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGraphPlot_Statics::NewProp_MarkLineColor,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGraphPlot_Statics::NewProp_SampleLineThickness,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGraphPlot_Statics::NewProp_SampleLineColor,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGraphPlot_Statics::NewProp_bAutoscaleToData,
@@ -374,15 +446,15 @@ void EmptyLinkFunctionForGeneratedCodeGraphPlot() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGraphPlot);
 	UGraphPlot::~UGraphPlot() {}
-	struct Z_CompiledInDeferFile_FID_Users_zombi_Downloads_Plugin_Builds_LimbitlessBluetoothPlugin_HostProject_Plugins_LimbitlessBluetoothPlugin_Source_LimbitlessBluetoothPlugin_Public_Widgets_GraphPlot_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_zombi_Downloads_Minigame_Plugins_LimbitlessBluetoothPlugin_HostProject_Plugins_LimbitlessBluetoothPlugin_Source_LimbitlessBluetoothPlugin_Public_Widgets_GraphPlot_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_zombi_Downloads_Plugin_Builds_LimbitlessBluetoothPlugin_HostProject_Plugins_LimbitlessBluetoothPlugin_Source_LimbitlessBluetoothPlugin_Public_Widgets_GraphPlot_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGraphPlot, UGraphPlot::StaticClass, TEXT("UGraphPlot"), &Z_Registration_Info_UClass_UGraphPlot, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGraphPlot), 3337141300U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_zombi_Downloads_Minigame_Plugins_LimbitlessBluetoothPlugin_HostProject_Plugins_LimbitlessBluetoothPlugin_Source_LimbitlessBluetoothPlugin_Public_Widgets_GraphPlot_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UGraphPlot, UGraphPlot::StaticClass, TEXT("UGraphPlot"), &Z_Registration_Info_UClass_UGraphPlot, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGraphPlot), 3263353237U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_zombi_Downloads_Plugin_Builds_LimbitlessBluetoothPlugin_HostProject_Plugins_LimbitlessBluetoothPlugin_Source_LimbitlessBluetoothPlugin_Public_Widgets_GraphPlot_h_357210753(TEXT("/Script/LimbitlessBluetoothPlugin"),
-		Z_CompiledInDeferFile_FID_Users_zombi_Downloads_Plugin_Builds_LimbitlessBluetoothPlugin_HostProject_Plugins_LimbitlessBluetoothPlugin_Source_LimbitlessBluetoothPlugin_Public_Widgets_GraphPlot_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_zombi_Downloads_Plugin_Builds_LimbitlessBluetoothPlugin_HostProject_Plugins_LimbitlessBluetoothPlugin_Source_LimbitlessBluetoothPlugin_Public_Widgets_GraphPlot_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_zombi_Downloads_Minigame_Plugins_LimbitlessBluetoothPlugin_HostProject_Plugins_LimbitlessBluetoothPlugin_Source_LimbitlessBluetoothPlugin_Public_Widgets_GraphPlot_h_3934675004(TEXT("/Script/LimbitlessBluetoothPlugin"),
+		Z_CompiledInDeferFile_FID_Users_zombi_Downloads_Minigame_Plugins_LimbitlessBluetoothPlugin_HostProject_Plugins_LimbitlessBluetoothPlugin_Source_LimbitlessBluetoothPlugin_Public_Widgets_GraphPlot_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_zombi_Downloads_Minigame_Plugins_LimbitlessBluetoothPlugin_HostProject_Plugins_LimbitlessBluetoothPlugin_Source_LimbitlessBluetoothPlugin_Public_Widgets_GraphPlot_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
