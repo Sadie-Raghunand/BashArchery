@@ -1,11 +1,11 @@
 Things that need to be finished for archery game
-	Get passed loading screen + make sure game works in actual game
-
+	Get passed loading screen + make sure game works in actual game 	TERTIARY TASK
+	
 Bugs:
+	Fix camera movement between player turns SECONDARY TASK
+	I feel like the arrows are still not shot forward properly ON HOLD FOR 	POLISH
+	The  arrows spawn then pause CURRENT TASK - ish
+	Arrows collide w each other ALSO CURRENT TASK
 
-	Fix spawn order going into player arrays
-	Fix camera movement between player turns
-
-Change rotation from IA_Rotation to rotation component on player!!!
-
+TEST W/ actual controller
 
