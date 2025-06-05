@@ -1,11 +1,25 @@
 Things that need to be finished for archery game
-	Get passed loading screen + make sure game works in actual game 	TERTIARY TASK
+	Get passed loading screen + make sure game works in actual game 	SECONDARY TASK
+	Fix wind UI to work w/game UI
 	
 Bugs:
-	Fix camera movement between player turns SECONDARY TASK
-	I feel like the arrows are still not shot forward properly ON HOLD FOR 	POLISH
-	The  arrows spawn then pause CURRENT TASK - ish
-	Arrows collide w each other ALSO CURRENT TASK
+	Fix camera movement between player turns CURRENT TASK
+		Camera moves too fast
+		Goes way too high up
+		Isn't rotated towards the target
 
-TEST W/ actual controller
+TEST W/ ACTUAL CONTROLLER 6/6/25 latest!Test ---flex and rotation---
+
+Polish:
+	UI or something to show aim of arrow, how far pulled back it is, etc
+	Finetune arrow movement to be a bit more directional
+	Revisit arrows colliding w/each  other
+
+Done today:
+Fix arrows colliding w each other, mostly
+Fix issue of arrow colliders recognizing each other as targets
+Fix target destroying itself
+Fix arrows being stuck in midair
+Add a limit to how much the player can rotate around while still facing the target
+Working on camera movement bugs and the arrows not working again
 
