@@ -3,23 +3,25 @@ Things that need to be finished for archery game
 	Fix wind UI to work w/game UI
 	
 Bugs:
-	Fix camera movement between player turns CURRENT TASK
-		Camera moves too fast
-		Goes way too high up
-		Isn't rotated towards the target
+	First move is drastically slower than others
+	Target rings get unparented from targetParent, rinsg do not move b/w 		arrow hits CURRENT TASK	
+		
 
-TEST W/ ACTUAL CONTROLLER 6/6/25 latest!Test ---flex and rotation---
+TEST W/ ACTUAL CONTROLLER 6/6/25 latest! Test ---flex and rotation---
+Also need to test w/multiple players
 
 Polish:
 	UI or something to show aim of arrow, how far pulled back it is, etc
 	Finetune arrow movement to be a bit more directional
 	Revisit arrows colliding w/each  other
 
+
 Done today:
-Fix arrows colliding w each other, mostly
-Fix issue of arrow colliders recognizing each other as targets
-Fix target destroying itself
-Fix arrows being stuck in midair
-Add a limit to how much the player can rotate around while still facing the target
-Working on camera movement bugs and the arrows not working again
+Fix not detecting any player turns, camera not registering player positions
+Fix players spawning in the wrong spot
+Fix camera movement not starting
+Fix camera movement not ending
+Fix player turn order
+Fix players beyond second turn doesn't change turn owner
+Camera movement seems to be completely fixed 
 
