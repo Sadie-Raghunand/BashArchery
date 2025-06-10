@@ -4,7 +4,12 @@ Things that need to be finished for archery game
 	
 Bugs:
 	First move is drastically slower than others
-	Target rings get unparented from targetParent, rinsg do not move b/w 		arrow hits CURRENT TASK	
+	self 2add point function occasionally causes error, not found cause yet
+	Target rings do not change position it looks like only target parent 	does CURRENT TASK	
+		Breakdown of what's happening:
+			If you try to manually move the parent, it unparents 				rings from it
+			Actual parent seems to move?? But rings dont even though 			y are childed and remain so after movement via blueprint
+			If change the position via blueprint, does not unparent
 		
 
 TEST W/ ACTUAL CONTROLLER 6/6/25 latest! Test ---flex and rotation---
@@ -17,11 +22,8 @@ Polish:
 
 
 Done today:
-Fix not detecting any player turns, camera not registering player positions
-Fix players spawning in the wrong spot
-Fix camera movement not starting
-Fix camera movement not ending
-Fix player turn order
-Fix players beyond second turn doesn't change turn owner
-Camera movement seems to be completely fixed 
-
+Fix lack of parenting on target rings
+Fix target parent not moving on collision
+Get target rings to move, just not in the correct spot
+Mostly just detective work on this one bug really, but much closer to fixing I feel like
+Worked on bug with point allocation
