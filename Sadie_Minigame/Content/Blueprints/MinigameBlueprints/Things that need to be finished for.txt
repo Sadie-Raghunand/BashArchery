@@ -5,15 +5,8 @@ Things that need to be finished for archery game
 Bugs:
 	First move is drastically slower than others
 	self 2add point function occasionally causes error, not found cause yet
-	Target rings do not change position it looks like only target parent 	does CURRENT TASK	
-		Breakdown of what's happening:
-			If you try to manually move the parent, it unparents 				rings from it
-			Actual parent seems to move?? But rings dont even though 			y are childed and remain so after movement via blueprint
-			If change the position via blueprint, does not unparent
-		
-
-TEST W/ ACTUAL CONTROLLER 6/6/25 latest! Test ---flex and rotation---
-Also need to test w/multiple players
+	Rotation from flex controller is not read
+	Not sure if the flex actually releases an arrow?
 
 Polish:
 	UI or something to show aim of arrow, how far pulled back it is, etc
@@ -22,8 +15,15 @@ Polish:
 
 
 Done today:
-Fix lack of parenting on target rings
-Fix target parent not moving on collision
-Get target rings to move, just not in the correct spot
-Mostly just detective work on this one bug really, but much closer to fixing I feel like
-Worked on bug with point allocation
+set targets that are not assigned to a player (ie there are only two players and 4 targets) inactive
+Fix target rings not moving
+Seems to have fixed target moving on its own after being hit?
+Started working on getting flex controller to work with game
+
+
+
+Needed for game:
+Environmental art assets
+Art assets for the targets and arrows
+SFX for arrows shooting, hitting the target, and hitting the ground
+Music
