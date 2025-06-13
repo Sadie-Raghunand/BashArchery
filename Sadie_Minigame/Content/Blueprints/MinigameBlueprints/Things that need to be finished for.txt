@@ -1,26 +1,26 @@
 Things that need to be finished for archery game
 	Get passed loading screen + make sure game works in actual game 	SECONDARY TASK
 	Fix wind UI to work w/game UI
+Delete the strange extra levels that keep popping up?
 	
 Bugs:
-	First move is drastically slower than others
+	First move is drastically slower than others (TERTIARY TASK)
 	self 2add point function occasionally causes error, not found cause yet
-	Rotation from flex controller is not read
-	Not sure if the flex actually releases an arrow?
-
+	Rotation from flex controller is not read CURRENT TASK
+	First flex seems to release an arrow, after that nothing		
+	
 Polish:
 	UI or something to show aim of arrow, how far pulled back it is, etc
 	Finetune arrow movement to be a bit more directional
 	Revisit arrows colliding w/each  other
+	Try to completely freeze target rings
 
 
 Done today:
-set targets that are not assigned to a player (ie there are only two players and 4 targets) inactive
-Fix target rings not moving
-Seems to have fixed target moving on its own after being hit?
-Started working on getting flex controller to work with game
-
-
+Fix camera position starting off in the incorrect rotation and offsetting rotation while moving
+Fix targets only teleporting forward
+Get rid of instantaneous movement after third arrow is shot, waits for arrow to go too far or hit the target to move the camera/change turns
+Made progress on getting rotation to be read by game and used for changing arrow aim
 
 Needed for game:
 Environmental art assets
