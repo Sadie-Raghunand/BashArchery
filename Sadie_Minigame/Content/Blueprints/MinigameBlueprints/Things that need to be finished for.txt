@@ -1,26 +1,38 @@
 Things that need to be finished for archery game
-	Get passed loading screen + make sure game works in actual game 	SECONDARY TASK
-	Fix wind UI to work w/game UI
-Delete the strange extra levels that keep popping up?
-	
+	*Get passed loading screen + make sure game works in actual game 
+
+	*Fix wind UI to work w/game UI //Tertiary Task//
+		
 Bugs:
-	First move is drastically slower than others (TERTIARY TASK)
-	self 2add point function occasionally causes error, not found cause yet
-	Rotation from flex controller is not read CURRENT TASK
-	First flex seems to release an arrow, after that nothing		
+	*First move is drastically slower than others //Secondary Task//
+
+	*Self 2add point function occasionally causes error, not found cause yet
+
+	*Some arrows don't move on spawn //Current Task//
 	
 Polish:
-	UI or something to show aim of arrow, how far pulled back it is, etc
-	Finetune arrow movement to be a bit more directional
-	Revisit arrows colliding w/each  other
-	Try to completely freeze target rings
+	*UI or something to show aim of arrow, how far pulled back it is, etc
+	
+	*Finetune arrow movement to be a bit more directional
+	
+	*Try to completely freeze target rings
+  	
+	*Implement thing for player appearing, camera over character's shoulder
+	
+	*Make arrow fall after it runs out of force instead of keeping its 	velocity always
+	
 
 
 Done today:
-Fix camera position starting off in the incorrect rotation and offsetting rotation while moving
-Fix targets only teleporting forward
-Get rid of instantaneous movement after third arrow is shot, waits for arrow to go too far or hit the target to move the camera/change turns
-Made progress on getting rotation to be read by game and used for changing arrow aim
+Fixed no read on rotation
+Adjust rotation function to take the correct values from the rotation of the controller and smooth out the speed of rotation
+Make controller work with shooting arrows, switch from analog to light/medium/strong flex input
+Some basic cleanup of blueprints
+Adjusted how arrows move forward to integrate with controller flexing better
+Fix arrows interfering with the player collider
+Put in failsafe to prevent player from spamming in one direction before target moves
+
+Currently testing force on start for arrows
 
 Needed for game:
 Environmental art assets
