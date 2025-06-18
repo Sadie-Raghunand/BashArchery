@@ -4,38 +4,40 @@ Things that need to be finished for archery game
 	*Fix wind UI to work w/game UI //Tertiary Task//
 		
 Bugs:
-	*First move is drastically slower than others //Secondary Task//
+	*First move is drastically slower than others 
 
-	*Self 2add point function occasionally causes error, not found cause yet
-
-	*Some arrows don't move on spawn //Current Task//
+	*All arrows barely move on spawn //Current Task//
+		- The actual arrow object doesn't move, the collider does?
 	
 Polish:
 	*UI or something to show aim of arrow, how far pulled back it is, etc
 	
 	*Finetune arrow movement to be a bit more directional
 	
-	*Try to completely freeze target rings
-  	
-	*Implement thing for player appearing, camera over character's shoulder
+	*Try to completely freeze target rings //Secondary Task//
 	
 	*Make arrow fall after it runs out of force instead of keeping its 	velocity always
-	
 
 
 Done today:
-Fixed no read on rotation
-Adjust rotation function to take the correct values from the rotation of the controller and smooth out the speed of rotation
-Make controller work with shooting arrows, switch from analog to light/medium/strong flex input
-Some basic cleanup of blueprints
-Adjusted how arrows move forward to integrate with controller flexing better
-Fix arrows interfering with the player collider
-Put in failsafe to prevent player from spamming in one direction before target moves
+Camera gets automatically positioned over the player's shoulder, works with multiple players
+Adjust arrows to be shot by player position, not camera position
+Fix a minor bug with detecting if the player has already shot an arrow
+Fix issue with spawning too many arrows if input is spammed
+Fix bug that arose with the arrows going the wrong direction
+Fix arrows travelling too slow with controller
+Fix bug with passing actor in as self2 variable
+Have rotation reset to edge of range when controller is out of the range of rotation to avoid camera getting stuck
 
-Currently testing force on start for arrows
+Working on:
+Adding a visual indicator on where the arrow would land once shot
+Fixing arrows not moving
+
+
 
 Needed for game:
 Environmental art assets
-Art assets for the targets and arrows
+Art assets for the targets, bow, and arrows
 SFX for arrows shooting, hitting the target, and hitting the ground
 Music
+Shooting animation
