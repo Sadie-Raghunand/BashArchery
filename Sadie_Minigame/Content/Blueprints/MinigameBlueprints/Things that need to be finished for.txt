@@ -8,6 +8,7 @@ Bugs:
 
 	*All arrows barely move on spawn //Current Task//
 		- The actual arrow object doesn't move, the collider does?
+		- Make mesh root, now moves wrong way and collider doesn't move, 		assigns points regardless
 	
 Polish:
 	*UI or something to show aim of arrow, how far pulled back it is, etc
@@ -20,14 +21,7 @@ Polish:
 
 
 Done today:
-Camera gets automatically positioned over the player's shoulder, works with multiple players
-Adjust arrows to be shot by player position, not camera position
-Fix a minor bug with detecting if the player has already shot an arrow
-Fix issue with spawning too many arrows if input is spammed
-Fix bug that arose with the arrows going the wrong direction
-Fix arrows travelling too slow with controller
-Fix bug with passing actor in as self2 variable
-Have rotation reset to edge of range when controller is out of the range of rotation to avoid camera getting stuck
+
 
 Working on:
 Adding a visual indicator on where the arrow would land once shot
