@@ -6,27 +6,27 @@ Things that need to be finished for archery game
 Bugs:
 	*First move is drastically slower than others 
 
-	*All arrows barely move on spawn //Current Task//
-		- The actual arrow object doesn't move, the collider does?
-		- Make mesh root, now moves wrong way and collider doesn't move, 		assigns points regardless
+	*Destroy at distance not working now?
+	
+	*Applying up + down movement prevents forward movement forward prevents 	up + down
 	
 Polish:
-	*UI or something to show aim of arrow, how far pulled back it is, etc
+	*UI or something to show aim of arrow, how far pulled back it is, etc 	//Secondary Task//
 	
-	*Finetune arrow movement to be a bit more directional
-	
-	*Try to completely freeze target rings //Secondary Task//
-	
-	*Make arrow fall after it runs out of force instead of keeping its 	velocity always
+	*Finetune arrow movement to be a bit more directional/replicate arrow 	movement better //Current task//
+		- Works for sure, but arrow needs to destroy when it hits the 			ground
+		- A bit floaty and weird
+		
+	*Try to completely freeze target rings 
 
 
 Done today:
-
+Fix bug where arrow mesh was not moving but the collider was
+Progress on improving the realitiness of the arrow movement up and down
 
 Working on:
 Adding a visual indicator on where the arrow would land once shot
-Fixing arrows not moving
-
+Make arrow destroy when hitting the ground
 
 
 Needed for game:
