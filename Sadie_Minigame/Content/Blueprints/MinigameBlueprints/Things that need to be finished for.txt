@@ -11,22 +11,26 @@ Bugs:
 	*Applying up + down movement prevents forward movement forward prevents 	up + down
 	
 Polish:
-	*UI or something to show aim of arrow, how far pulled back it is, etc 	//Secondary Task//
+	*UI or something to show aim of arrow, how far pulled back it is, etc 	//Primary Task//
 	
-	*Finetune arrow movement to be a bit more directional/replicate arrow 	movement better //Current task//
-		- Works for sure, but arrow needs to destroy when it hits the 			ground
-		- A bit floaty and weird
+	*Continue to improve arrow movement //Secondary Task//
 		
 	*Try to completely freeze target rings 
 
+	*Players cannot hit other targets, have assigned target
+
 
 Done today:
-Fix bug where arrow mesh was not moving but the collider was
-Progress on improving the realitiness of the arrow movement up and down
+Arrow gets destroyed when it hits the floor
+Learning about vfx in unreal/Niagara particle systems for use on shoot indicator
+	Got working a beam effect that relatively accurately shows where arrow lands and can change the rotation of it to 	replicate player, working on how to get it to change length during runtime
+Prevent player from shooting targets that are not in its assigned lane
+
 
 Working on:
 Adding a visual indicator on where the arrow would land once shot
-Make arrow destroy when hitting the ground
+	Working on trying to change were start and end points of the beam are during runtime
+	Try checking system properties when you click the atual nodes in the particle effect, emmiter summary?
 
 
 Needed for game:
