@@ -9,9 +9,14 @@ Bugs:
 	*Destroy at distance not working now?
 	
 	*Applying up + down movement prevents forward movement forward prevents up + down, Last priority since it is workable 	right now
+
+	*VFX only appear on linecast where linecast first goes, des not update on tick
 	
 Polish:
 	*UI or something to show aim of arrow, how far pulled back it is, etc 	//Primary Task//
+		-Curved or calculate angle, see below
+		-Include wind calculations + strength of flex
+		- Backup plan: just do forward vector and pass off as ballparking where the forward is, then player has to 		figure out the rest themselves
 	
 	*Continue to improve arrow movement //Secondary Task//
 		
@@ -23,10 +28,16 @@ Find and fix a bug with arrows not destroying on the ground and resetting game
 Work a bit on arrow movement, push back to almost last priority
 Pivot approach to arrow indicator, got raycast/line trace to work to determine approximate location in front of player on target
 VFX appear at point where the line trace hits the target
+Working on calculating an angle to more acturately reflect where the arrow will land 
 
 
 Working on:
 Making a curved pattern that follows where the arrow actually will go/hit the target
+OR calculate angle bw player and target, increase/decrease angle if line based on that position
+	How to do this:
+		Get distance from the target
+		Find what distance lands normal line in the middle of the target, further than that angle the line downward, 		closer angle upwards
+		Ex - distance 5 is mid point, no angle, distance 1 requires angle up of 4, distance 10 requires angle down of 		5?
 
 Needed for game:
 Environmental art assets
