@@ -5,10 +5,8 @@ Things that need to be finished for archery game
 		
 Bugs:
 	*First move is drastically slower than others 
-
-	*Destroy at distance not working now?
 	
-	*Applying up + down movement prevents forward movement forward prevents 	up + down
+	*Applying up + down movement prevents forward movement forward prevents up + down, moving this to URGENT
 	
 Polish:
 	*UI or something to show aim of arrow, how far pulled back it is, etc 	//Primary Task//
@@ -16,21 +14,18 @@ Polish:
 	*Continue to improve arrow movement //Secondary Task//
 		
 	*Try to completely freeze target rings 
-
-	*Players cannot hit other targets, have assigned target
+	
+	*Change scoring to darts-type scoring instead of archery to further differentiate from shooting game
 
 
 Done today:
-Arrow gets destroyed when it hits the floor
-Learning about vfx in unreal/Niagara particle systems for use on shoot indicator
-	Got working a beam effect that relatively accurately shows where arrow lands and can change the rotation of it to 	replicate player, working on how to get it to change length during runtime
-Prevent player from shooting targets that are not in its assigned lane
-
+Found and fix bug with hitting the ground and destroying the arrow
+Found and fixed bug with destroying an arrow if it gets too far from player
 
 Working on:
 Adding a visual indicator on where the arrow would land once shot
 	Working on trying to change were start and end points of the beam are during runtime
-	Try checking system properties when you click the atual nodes in the particle effect, emmiter summary?
+	Try checking system properties when you click the actual nodes in the particle effect, emitter summary?
 
 
 Needed for game:
