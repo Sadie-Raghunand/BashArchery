@@ -1,14 +1,14 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Games Team\\Documents\\GitHub\\BashArchery\\Sadie_Minigame\\Plugins\\BashCore\\Source\\BashCore\\BashCore.Build.cs",
-		"C:\\Users\\Games Team\\Documents\\GitHub\\BashArchery\\Sadie_Minigame\\Plugins\\FCTween\\Source\\FCTween\\FCTween.Build.cs",
-		"C:\\Users\\Games Team\\Documents\\GitHub\\BashArchery\\Sadie_Minigame\\Plugins\\JoyShockLibrary4Unreal\\Source\\JoyShockLibrary4Unreal\\JoyShockLibrary4Unreal.Build.cs",
-		"C:\\Users\\Games Team\\Documents\\GitHub\\BashArchery\\Sadie_Minigame\\Plugins\\LimbitlessBluetoothPlugin\\Source\\LimbitlessBluetoothPlugin\\LimbitlessBluetoothPlugin.Build.cs",
-		"C:\\Users\\Games Team\\Documents\\GitHub\\BashArchery\\Sadie_Minigame\\Plugins\\LimbitlessBluetoothPlugin\\Source\\LimbitlessBluetoothEditor\\LimbitlessBluetoothEditor.Build.cs",
-		"C:\\Users\\Games Team\\Documents\\GitHub\\BashArchery\\Sadie_Minigame\\Plugins\\LimbitlessBluetoothPlugin\\Source\\PlatformManager\\PlatformManager.Build.cs",
-		"C:\\Users\\Games Team\\Documents\\GitHub\\BashArchery\\Sadie_Minigame\\Plugins\\LimbitlessBluetoothPlugin\\Source\\LimbitlessBTWindows\\LimbitlessBTWindows.Build.cs",
-		"C:\\Users\\Games Team\\Documents\\GitHub\\BashArchery\\Sadie_Minigame\\Plugins\\MinigameCore\\Source\\MinigameCore\\MinigameCore.Build.cs",
-		"C:\\Users\\Games Team\\Documents\\GitHub\\BashArchery\\Sadie_Minigame\\Plugins\\WinBT\\Source\\WinBT\\WinBT.Build.cs"
+		"C:\\Users\\Conta\\OneDrive\\Documents\\GitHub\\BashArchery\\Sadie_Minigame\\Plugins\\BashCore\\Source\\BashCore\\BashCore.Build.cs",
+		"C:\\Users\\Conta\\OneDrive\\Documents\\GitHub\\BashArchery\\Sadie_Minigame\\Plugins\\FCTween\\Source\\FCTween\\FCTween.Build.cs",
+		"C:\\Users\\Conta\\OneDrive\\Documents\\GitHub\\BashArchery\\Sadie_Minigame\\Plugins\\JoyShockLibrary4Unreal\\Source\\JoyShockLibrary4Unreal\\JoyShockLibrary4Unreal.Build.cs",
+		"C:\\Users\\Conta\\OneDrive\\Documents\\GitHub\\BashArchery\\Sadie_Minigame\\Plugins\\LimbitlessBluetoothPlugin\\Source\\LimbitlessBTWindows\\LimbitlessBTWindows.Build.cs",
+		"C:\\Users\\Conta\\OneDrive\\Documents\\GitHub\\BashArchery\\Sadie_Minigame\\Plugins\\LimbitlessBluetoothPlugin\\Source\\PlatformManager\\PlatformManager.Build.cs",
+		"C:\\Users\\Conta\\OneDrive\\Documents\\GitHub\\BashArchery\\Sadie_Minigame\\Plugins\\LimbitlessBluetoothPlugin\\Source\\LimbitlessBluetoothEditor\\LimbitlessBluetoothEditor.Build.cs",
+		"C:\\Users\\Conta\\OneDrive\\Documents\\GitHub\\BashArchery\\Sadie_Minigame\\Plugins\\LimbitlessBluetoothPlugin\\Source\\LimbitlessBluetoothPlugin\\LimbitlessBluetoothPlugin.Build.cs",
+		"C:\\Users\\Conta\\OneDrive\\Documents\\GitHub\\BashArchery\\Sadie_Minigame\\Plugins\\MinigameCore\\Source\\MinigameCore\\MinigameCore.Build.cs",
+		"C:\\Users\\Conta\\OneDrive\\Documents\\GitHub\\BashArchery\\Sadie_Minigame\\Plugins\\WinBT\\Source\\WinBT\\WinBT.Build.cs"
 	],
 	"EngineVersion": "5.1.1"
 }

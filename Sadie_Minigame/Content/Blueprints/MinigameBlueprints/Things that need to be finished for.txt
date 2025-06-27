@@ -11,16 +11,17 @@ Bugs:
 Polish:
 	*UI or something to show aim of arrow, how far pulled back it is, etc 	//Primary Task//
 	
-	*Continue to improve arrow movement //Secondary Task//
+	*Continue to improve arrow movement
 		
-	*Try to completely freeze target rings 
+	*Try to completely freeze target rings  //Secondary Task//
 	
 	*Change scoring to darts-type scoring instead of archery to further differentiate from shooting game
 
+	*Add UI for which way the wind is blowing / Ui to indicate when the wind changes?
+
 
 Done today:
-Found and fix bug with hitting the ground and destroying the arrow
-Found and fixed bug with destroying an arrow if it gets too far from player
+
 
 Working on:
 Adding a visual indicator on where the arrow would land once shot
