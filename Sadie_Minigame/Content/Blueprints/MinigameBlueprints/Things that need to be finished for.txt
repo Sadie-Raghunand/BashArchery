@@ -15,7 +15,6 @@ Bugs:
 		
 Polish:
 	*UI or something to show aim of arrow, how far pulled back it is, etc 	//Primary Task//
-		-Include wind calculations + strength of flex
 
 	*Continue to improve arrow movement 
 		
@@ -33,11 +32,12 @@ Done today:
 Got trajectory indicator to  follow player's forward and added ability to scale though not actively implemented to leave room for possibility of added 3 different indicators for light- heavy flexes 
 Learn a bit about materials and sprites for particle effects in unreal to make different colored in indicators
 Add wind into calculation for landing position
+Get started on making two other indicators to display strong and light flexes 
 
 
 Working on:
-Traj.Ind ends only at pt. where obj. is, needs to go further or shorter depending on the strength + wind, need to use obj. as an indicator, not actual position 
 VFX is also slightly higher than the end of linecast
+Set up several indicators, one for light flex, one for medium flex, and one for heavy flex.  Working on getting the positions to be along the same linecast direction, but in front of each other if they do not all hit the target.  Set up separate linecatss, need to set all positions to the same if they all or more than one hit the target, ad set all to line trace at different positions if none hit position.  Also needs testing.  Also update slideshow w/archery game
 
 
 
