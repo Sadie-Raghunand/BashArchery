@@ -4,18 +4,18 @@ Things that need to be finished for archery game
 	*Fix wind UI to work w/game UI 
 		
 Bugs:
+	*Oh no the shooting in the correct direction is broken again	
+
 	*First move is drastically slower than others 
 	
-	*Applying up + down movement prevents forward movement forward prevents up + down, Last priority since it is workable right now
+	*Applying up + down movement prevents forward movement forward prevents up + down, Last priority since it is workable 	right now
 
-	*Augmenting linetrace w/angle causes linetrace to not follow player's forward
+	*Rotation w/keyboard has no limits + cam doesn't move with it, good for debugging right now but if keyboard support 	needs to be implemented, then this needs to be fixed
 
 		
 Polish:
 	*UI or something to show aim of arrow, how far pulled back it is, etc 	//Primary Task//
-		-Curved or calculate angle, see below
 		-Include wind calculations + strength of flex
-		- Backup plan: just do forward vector and pass off as ballparking where the forward is, then 			player has to 	figure out the rest themselves
 
 	*Continue to improve arrow movement 
 		
@@ -23,19 +23,22 @@ Polish:
 
 	*Add UI for which way the wind is blowing / Ui to indicate when the wind changes?
 
+	*Add beginning + end cutscenes
+
+	*Switch to Unreal 5.6
+
+
 
 Done today:
-Fix bug with not destroying at a certain distance
-Fix player defaulting to a tilted rotation
-Fix displaced position of particles on target
-Fix bug where particles of Niagara system are invisible
-Work on behavior of vfx if the linecast is hitting nothing, got rotation with linecast done
-Fix bug with updating the particle effect's position
-Set up/working on basis for system to account for angle of arrow instead of being a straight shot from the player for the indicator, working on adjusting math and values to make more accurate and working on getting it to actually follow that pattern
+Got trajectory indicator to  follow player's forward and added ability to scale though not actively implemented to leave room for possibility of added 3 different indicators for light- heavy flexes 
+Learn a bit about materials and sprites for particle effects in unreal to make different colored in indicators
+Add wind into calculation for landing position
 
 
 Working on:
-The linecast doesn't seem to actually be following the angle, but angle calculations seem right? Not set in stone but the base idea seems to function
+Traj.Ind ends only at pt. where obj. is, needs to go further or shorter depending on the strength + wind, need to use obj. as an indicator, not actual position 
+VFX is also slightly higher than the end of linecast
+
 
 
 
