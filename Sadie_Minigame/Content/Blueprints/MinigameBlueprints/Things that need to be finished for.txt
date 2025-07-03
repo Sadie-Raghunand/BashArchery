@@ -4,13 +4,15 @@ Things that need to be finished for archery game
 	*Fix wind UI to work w/game UI 
 		
 Bugs:
-	*Oh no the shooting in the correct direction is broken again	
 
 	*First move is drastically slower than others 
 	
 	*Applying up + down movement prevents forward movement forward prevents up + down, Last priority since it is workable 	right now
 
 	*Rotation w/keyboard has no limits + cam doesn't move with it, good for debugging right now but if keyboard support 	needs to be implemented, then this needs to be fixed
+
+	*Arrow indicators layer properly, though distances need to be experimented with, but they displace on the world x axis, 	need to displace on the player's relative x axis
+
 
 		
 Polish:
@@ -26,19 +28,20 @@ Polish:
 
 	*Switch to Unreal 5.6
 
+	*Juice ideas:
+		- Don't automatically move target, leave it there w/ arrow, freeze arrow when hitting the target
+		- Make target physically respond to being hit
+
 
 
 Done today:
-Got trajectory indicator to  follow player's forward and added ability to scale though not actively implemented to leave room for possibility of added 3 different indicators for light- heavy flexes 
-Learn a bit about materials and sprites for particle effects in unreal to make different colored in indicators
-Add wind into calculation for landing position
-Get started on making two other indicators to display strong and light flexes 
-
+Fix newfound issue with shooting direction
+Fix null error on indicator
+Working on target extras
 
 Working on:
-VFX is also slightly higher than the end of linecast
-Set up several indicators, one for light flex, one for medium flex, and one for heavy flex.  Working on getting the positions to be along the same linecast direction, but in front of each other if they do not all hit the target.  Set up separate linecatss, need to set all positions to the same if they all or more than one hit the target, ad set all to line trace at different positions if none hit position.  Also needs testing.  Also update slideshow w/archery game
-
+Positioning light + strong flex indicators correctly along axis between player and end of line trace
+Improving target feedback when an arrow hits it by pausing when an arrow hits it before moving positions, keeping arrows in the target where they hit, and making the target have slight movement when hit, aminly trying to freeze the arrow in place rn
 
 
 
