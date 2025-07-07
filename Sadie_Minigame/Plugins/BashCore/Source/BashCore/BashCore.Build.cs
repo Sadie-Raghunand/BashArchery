@@ -13,8 +13,9 @@ public class BashCore : ModuleRules
 			{
 				"Core", "LimbitlessBluetoothPlugin",
 				"UMG", "InputCore", "EnhancedInput"
+				// ... add other public dependencies that you statically link with here ...
 			}
-		);
+			);
 			
 		
 		PrivateDependencyModuleNames.AddRange(
@@ -24,7 +25,9 @@ public class BashCore : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
+				"CustomizableObject"
+				// ... add private dependencies that you statically link with here ...	
 			}
-		);
+			);
 	}
 }

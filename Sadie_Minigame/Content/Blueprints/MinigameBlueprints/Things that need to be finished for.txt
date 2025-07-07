@@ -36,7 +36,8 @@ Polish:
 
 Done today:
 Arrows stick to the target, mostly working on this and debugging the issues that come up with it 
-
+Start working on target movement feedback when hit
+Upgrade project to 5.6
 
 
 Working on:
