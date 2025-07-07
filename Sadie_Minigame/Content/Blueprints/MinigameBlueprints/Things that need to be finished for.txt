@@ -35,14 +35,13 @@ Polish:
 
 
 Done today:
-Fix newfound issue with shooting direction
-Fix null error on indicator
-Working on target extras
+Arrows stick to the target, mostly working on this and debugging the issues that come up with it 
+
+
 
 Working on:
 Positioning light + strong flex indicators correctly along axis between player and end of line trace
-Improving target feedback when an arrow hits it by pausing when an arrow hits it before moving positions, keeping arrows in the target where they hit, and making the target have slight movement when hit, aminly trying to freeze the arrow in place rn
-
+Improving target feedback when an arrow hits it by pausing when an arrow hits it before moving positions, keeping arrows in the target where they hit, and making the target have slight movement when hit, mainly trying to freeze the arrow in place rn
 
 
 
