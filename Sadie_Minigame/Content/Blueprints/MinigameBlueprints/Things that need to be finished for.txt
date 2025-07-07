@@ -36,7 +36,8 @@ Polish:
 
 Done today:
 Arrows stick to the target, mostly working on this and debugging the issues that come up with it 
-
+5.6
+Working on target moving slightly as feedback after hit
 
 
 Working on:
