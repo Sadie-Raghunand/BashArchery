@@ -13,16 +13,17 @@ Bugs:
 
 	*Arrow indicators layer properly, though distances need to be experimented with, but they displace on the world x axis, 	need to displace on the player's relative x axis
 
+	*Project keeps crashing but only when I am away from it for like 5+ minutes
+
 Bugs SPECIFICALLY FROM UPGRADING TO 5.6 //Primary Task//
 
-	*Sprite for trajectory indicator is broken
-
-	*Player rotation is being prevented, or the camera is attaching to the wrong player, speaking of...
+	*Defaults to first turn is player 1, not 0
 
 	*Twice as many players spawn in
+
+	*Particle effect is a square - low priority
 		
-Polish:
-	*UI or something to show aim of arrow, how far pulled back it is, etc 	
+Polish: 	
 
 	*Continue to improve arrow movement 
 		
@@ -32,8 +33,6 @@ Polish:
 
 	*Add beginning + end cutscenes
 
-	*Switch to Unreal 5.6
-
 	*Juice ideas: //Secondary Task//
 		- Make target physically respond to being hit
 
@@ -41,11 +40,13 @@ Polish:
 
 Done today:
 Fix particle effect materials gone missing after 5.6
-
+Continue working on target movement feedback
+Working on multiple player spawns issue
+Got a bounce function to work sort of on target but not really? Visual indication is messed up, we'll call it a bug
 
 Working on:
-Positioning light + strong flex indicators correctly along axis between player and end of line trace
-Improving target feedback when an arrow hits it by pausing when an arrow hits it before moving positions, keeping arrows in the target where they hit, and making the target have slight movement when hit, mainly trying to freeze the arrow in place rn
+Fixing 5.6 upgrade bugs  is top priority, but also working on trying to enable constraints on target rings in a  way where the z axis is the only thing that can move
+	- prevent the rings from colliding if they don't already have that function?
 
 
 
