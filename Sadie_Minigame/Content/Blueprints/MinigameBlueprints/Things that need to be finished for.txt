@@ -35,15 +35,12 @@ Polish:
 	*Switch to Unreal 5.6
 
 	*Juice ideas: //Secondary Task//
-		- Don't automatically move target, leave it there w/ arrow, freeze arrow when hitting the target
 		- Make target physically respond to being hit
 
 
 
 Done today:
-Arrows stick to the target, mostly working on this and debugging the issues that come up with it 
-Start working on target movement feedback when hit
-Upgrade project to 5.6
+Fix particle effect materials gone missing after 5.6
 
 
 Working on:
