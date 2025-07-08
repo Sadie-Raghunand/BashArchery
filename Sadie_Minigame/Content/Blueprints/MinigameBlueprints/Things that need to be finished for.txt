@@ -1,5 +1,5 @@
 Things that need to be finished for archery game
-	*Get past loading screen + make sure game works in actual game //Tertiary Task// 
+	*Get past loading screen + make sure game works in actual game  
 
 	*Fix wind UI to work w/game UI 
 		
@@ -13,14 +13,20 @@ Bugs:
 
 	*Arrow indicators layer properly, though distances need to be experimented with, but they displace on the world x axis, 	need to displace on the player's relative x axis
 
+Bugs SPECIFICALLY FROM UPGRADING TO 5.6 //Primary Task//
 
+	*Sprite for trajectory indicator is broken
+
+	*Player rotation is being prevented, or the camera is attaching to the wrong player, speaking of...
+
+	*Twice as many players spawn in
 		
 Polish:
-	*UI or something to show aim of arrow, how far pulled back it is, etc 	//Primary Task//
+	*UI or something to show aim of arrow, how far pulled back it is, etc 	
 
 	*Continue to improve arrow movement 
 		
-	*Try to completely freeze target rings //Secondary Task//
+	*Try to completely freeze target rings //Tertiary Task//
 
 	*Add UI for which way the wind is blowing / Ui to indicate when the wind changes?
 
@@ -28,7 +34,7 @@ Polish:
 
 	*Switch to Unreal 5.6
 
-	*Juice ideas:
+	*Juice ideas: //Secondary Task//
 		- Don't automatically move target, leave it there w/ arrow, freeze arrow when hitting the target
 		- Make target physically respond to being hit
 
