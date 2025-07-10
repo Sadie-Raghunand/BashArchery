@@ -2,6 +2,8 @@ Things that need to be finished for archery game
 	*Get past loading screen + make sure game works in actual game  
 
 	*Fix wind UI to work w/game UI 
+
+	*Add assets
 		
 Bugs:
 
@@ -27,32 +29,32 @@ Polish:
 
 	*Continue to improve arrow movement 
 		
-	*Try to completely freeze target rings //Tertiary Task//
+	*Try to completely freeze target rings 
 
 	*Add UI for which way the wind is blowing / Ui to indicate when the wind changes?
 
 	*Add beginning + end cutscenes
 
-	*Juice ideas: //Secondary Task//
-		- Make target physically respond to being hit
+	*Juice ideas: //Tertiary Task//
+		- Use FTC Tween plugin (possibly go back and polish target and camera movement with this)
+
+	*Cutscenes //Secondary Task//
+		
 
 
 
 Done today:
-Fix particle effect materials gone missing after 5.6
-Continue working on target movement feedback
-Working on multiple player spawns issue
-Got a bounce function to work sort of on target but not really? Visual indication is messed up, we'll call it a bug
+Work on and finish feedback from the arrows hitting the target
+Work on description and controls for the loading screen
+Work on adding art assets into level for theming
 
 Working on:
-Fixing 5.6 upgrade bugs  is top priority, but also working on trying to enable constraints on target rings in a  way where the z axis is the only thing that can move
-	- prevent the rings from colliding if they don't already have that function?
+Fixing 5.6 upgrade bugs is top priority
 
 
 
 
 ---Needed for game:---
-Environmental art assets
 Art assets for the targets, bow, and arrows
 SFX for arrows shooting, hitting the target, and hitting the ground
 Music
