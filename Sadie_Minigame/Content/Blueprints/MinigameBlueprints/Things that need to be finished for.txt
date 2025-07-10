@@ -20,6 +20,9 @@ Bugs:
 Bugs SPECIFICALLY FROM UPGRADING TO 5.6 //Primary Task//
 
 	*Defaults to first turn is player 1, not 0
+		- This may actually bring in another issue of ensuring the correct player starts off and has control, and the 		camera goes to the right spot and the correct players spawn in correct places
+		Right now: camera goes to first player's position, but follows rotation of the second player.  Rotating with 		input 	causes second player to rotate, not first
+		- Input is tied to first player, might be a thing of input just ties itself to the last player spawned (yeah 		looks like it)
 
 	*Twice as many players spawn in
 
