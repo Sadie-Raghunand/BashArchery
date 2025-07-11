@@ -3,56 +3,71 @@ Things that need to be finished for archery game
 
 	*Fix wind UI to work w/game UI 
 
-	*Add assets
-		
 Bugs:
 
-	*First move is drastically slower than others 
+	*First move is drastically slower than others (FTC Tween?)
 	
 	*Applying up + down movement prevents forward movement forward prevents up + down, Last priority since it is workable 	right now
 
-	*Rotation w/keyboard has no limits + cam doesn't move with it, good for debugging right now but if keyboard support 	needs to be implemented, then this needs to be fixed
+	*Rotation now only gets clocked by editor if click on object in outliner
 
 	*Arrow indicators layer properly, though distances need to be experimented with, but they displace on the world x axis, 	need to displace on the player's relative x axis
 
 	*Project keeps crashing but only when I am away from it for like 5+ minutes
+
+	*Arrows don't go forward anymore, this is devastating
+
+	*When using keyboard, camera doesn't rotate w/player
 
 Bugs SPECIFICALLY FROM UPGRADING TO 5.6 //Primary Task//
 
 	*Defaults to first turn is player 1, not 0
 		- This may actually bring in another issue of ensuring the correct player starts off and has control, and the 		camera goes to the right spot and the correct players spawn in correct places
 		Right now: camera goes to first player's position, but follows rotation of the second player.  Rotating with 		input 	causes second player to rotate, not first
-		- Input is tied to first player, might be a thing of input just ties itself to the last player spawned (yeah 		looks like it)
+		- Note: Not a bug just a note, input automatically ties to last player spawned in
 
 	*Twice as many players spawn in
+		- Only one bash controller is spawned in however
 
-	*Particle effect is a square - low priority
+	*Particle effect is a square - very low priority
 		
 Polish: 	
 
-	*Continue to improve arrow movement 
-		
-	*Try to completely freeze target rings 
-
-	*Add UI for which way the wind is blowing / Ui to indicate when the wind changes?
-
-	*Add beginning + end cutscenes
+	*Continue to improve arrow movement, currently is very slow
 
 	*Juice ideas: //Tertiary Task//
 		- Use FTC Tween plugin (possibly go back and polish target and camera movement with this)
 
 	*Cutscenes //Secondary Task//
-		
+		-Ideas:
+			+Aerial zoom in/out to position in front of target?
+			+End cutscene revolves camera around the player that won/winning player's target w/arrows on it w Ui 			that says who won?
+			+Will likely need the 5.6 bugs fixed before testing on this can be properly done
+			!!Implemented needs testing : UI telling which player's turn it is, plus start text, plus end text
+
+	*Add consideration for how to differentiate between flexes for controller/keyboard (time held? Force on thumbstick?) 
+
+	*UI to show how many points each player has gotten + how many arrows they have left
+
+	*UI to show when a player has changed the wind + which player
+
+	*LAST (or add debug mode for this) allow all players to shoot through player 1 during practice mode, then go to normal 	once practice mode is done
 
 
 
 Done today:
-Work on and finish feedback from the arrows hitting the target
-Work on description and controls for the loading screen
-Work on adding art assets into level for theming
+Fixed the range on rotations when using keyboard/controller (not flex)
+Add color change to wind UI to indicate when it changes
+Added UI elements as part of the opening and ending cutscenes to say the game has started and that the game is over / who won
+Added UI between player turn changes to indicate which players' turn it is
+Work on making sure the game works properly outside of practice mode (add this to report idk)
+Still  looking for a way to fix 5.6 bug of spawning too many players
+
 
 Working on:
 Fixing 5.6 upgrade bugs is top priority
+	- Making a function in game mode to find all controllers, trying to find if there's a way to delete any players not 	connected to a controller then reload?
+Working on cutscenes - next is camera movement + any adding art assets that is necessary for  this to look good
 
 
 
