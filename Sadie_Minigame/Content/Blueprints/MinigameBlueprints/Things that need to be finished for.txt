@@ -1,7 +1,29 @@
-Things that need to be finished for archery game
-	*Get past loading screen + make sure game works in actual game  
+--------------------
+!!!!!!!!!!!!!!!!!!!
+---Tasks organized by urgency---
+1.Lack of collision b/w arrows and targets
+2.Camera is not set in right place due to lack of players until end of start cutscene
+3.Get UI to work w/existing bash UI
+4.Implement different forces for keyboard/controller to mimic flex strengths for arrows
+4.Try to smooth out camera movement + add to cutscenes
+5.Fix arrow indicator layering
+6.Juice + polish
 
-	*Fix wind UI to work w/game UI 
+!!!!!!!!!!!!!!!!!!!!!!!!
+------------------------
+--------------
+Done today:
+Fix double player spawn issue
+Fix keyboard rotation
+Fix cutscene and player turn ui infinite loop bug and improve w/ widget animations, finish end cutscene UI animations
+Work on new and improved(!) arrow/target collision bug
+
+Working on:
+Working on cutscenes - next is camera movement + any adding art assets that is necessary for  this to look good
+Working on arrows not colliding with targets at high speeds
+
+---------------
+
 
 Bugs:
 
@@ -9,21 +31,15 @@ Bugs:
 	
 	*Applying up + down movement prevents forward movement forward prevents up + down, Last priority since it is workable 	right now
 
-	*Rotation now only gets clocked by editor if click on object in outliner
-
 	*Arrow indicators layer properly, though distances need to be experimented with, but they displace on the world x axis, 	need to displace on the player's relative x axis
+		- Arrow indicators also depend on position of the forwardPos object, either this or arrow destroying needs to 		be independent of that
 
 	*Project keeps crashing but only when I am away from it for like 5+ minutes
 
 	*Arrows never destroy, and are never registered as hit by target
 		-Directly related to the newfound speed of the arrows, plus lerp does not seem to inherently take into account 		physics
-
-
-
-Bugs SPECIFICALLY FROM UPGRADING TO 5.6
-
-	*Particle effect is a square - very low priority
-		
+		-Maybe make it so when arrow is further than the target, stop moving forward, then force downwards to hit 		ground?
+		-Or halfway between the forward pos & player? Except this ignores the force that the players flex w
 Polish: 	
 
 	*Juice ideas: //Tertiary Task//
@@ -35,6 +51,7 @@ Polish:
 			+End cutscene revolves camera around the player that won/winning player's target w/arrows on it w Ui 			that says who won?
 			+Will likely need the 5.6 bugs fixed before testing on this can be properly done
 			!!Implemented needs testing : UI telling which player's turn it is, plus start text, plus end text
+			!!!For loop does not work w/delay use branch??!!!
 
 	*Add consideration for how to differentiate between flexes for controller/keyboard (time held? Force on thumbstick?) 
 
@@ -45,19 +62,6 @@ Polish:
 	*LAST (or add debug mode for this) allow all players to shoot through player 1 during practice mode, then go to normal 	once practice mode is done
 
 
-
-Done today:
-Fix double player spawn issue
-Fix keyboard rotation
-
-
-Working on:
-Fixing 5.6 upgrade bugs is top priority
-	- Making a function in game mode to find all controllers, trying to find if there's a way to delete any players not 	connected to a controller then reload?
-Working on cutscenes - next is camera movement + any adding art assets that is necessary for  this to look good
-Working on arrows not colliding with targets at high speeds
-Note - Temporarily disconnected the player change wind function and made layer shoot to debug shooting direction! Do not panic when wind doesn't work!
-And also setting camera rotation
 
 
 ---Needed for game:---
