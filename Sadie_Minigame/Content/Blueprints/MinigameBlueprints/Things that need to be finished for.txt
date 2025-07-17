@@ -16,17 +16,11 @@ Bugs:
 	*Project keeps crashing but only when I am away from it for like 5+ minutes
 
 	*Arrows never destroy, and are never registered as hit by target
+		-Directly related to the newfound speed of the arrows, plus lerp does not seem to inherently take into account 		physics
 
-	*When using keyboard, camera doesn't rotate w/player
 
-Bugs SPECIFICALLY FROM UPGRADING TO 5.6 //Primary Task//
 
-	*Defaults to first turn is player 1, not 0
-		Right now: camera goes to first player's position, but follows rotation of the second player.  Rotating with 		input 	causes second player to rotate, not first
-		- Note: Not a bug just a note, input automatically ties to last player spawned in
-
-	*Twice as many players spawn in
-		- Only one bash controller is spawned in however
+Bugs SPECIFICALLY FROM UPGRADING TO 5.6
 
 	*Particle effect is a square - very low priority
 		
@@ -53,10 +47,8 @@ Polish:
 
 
 Done today:
-Worked on multiple player bug
-Fix non-first players spawning behind targets
-Fix issue with arrows not setting their player variables to the correct player and subsequently the arrows following the wrong players' shooting direction
-Fix hit vfx happening at the wrong time
+Fix double player spawn issue
+Fix keyboard rotation
 
 
 Working on:
