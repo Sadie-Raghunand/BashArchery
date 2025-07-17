@@ -90,6 +90,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "MinigameUI")
 	void PlayMinigameTransitionEffects();
 protected:
+
+	virtual APawn* SpawnDefaultPawnFor_Implementation(AController* NewPlayer, AActor* StartSpot) override;
+	
 	virtual void Tick(float DeltaTime) override;
 
 	virtual void StartPlay() override;
@@ -103,15 +106,15 @@ public:
 	
 	// Called after players are spawned and the minigame base has initialized. Also called after every reset
 	UPROPERTY(BlueprintAssignable);
-	FGameStartedSignature OnGameStart;
+	FGameStartedSignature OnMinigameStartEvent;
 
 	// Triggered when the minigame end has been initialized, either from the timer or explicit call of EndGame()
 	UPROPERTY(BlueprintAssignable)
-	FGameEndedSignature OnGameEnd;
+	FGameEndedSignature OnMinigameEndEvent;
 
 	// Triggered right before the minigame is reset. Use this to clean up persistent state
 	UPROPERTY(BlueprintAssignable)
-	FGameResetSignature OnGameReset;
+	FGameResetSignature OnMinigameResetEvent;
 
 protected:
 	// Also provide events as BlueprintImplementableEvent
