@@ -19,8 +19,14 @@ Fix camera not going to player's positions when not in practice mode
 Fix players after practice mode not being registered by turn manager
 	NOTE - setting proper player numbers will require testing, how to do this
 Fix arrows missing the target but not really apparently
-Fix arrows not destroying at correct distance, in the event they do not hit the groun
+Fix arrows not destroying at correct distance, in the event they do not hit the ground
+Working on cam overlooking first player
+Worked on cutscene camera movement and destroying all arrows between practice + game
+
 Working on:
+Cutscene camera movement + cam not looking over the player's shoulder
+arrow target interactions
+
 
 
 ---------------
