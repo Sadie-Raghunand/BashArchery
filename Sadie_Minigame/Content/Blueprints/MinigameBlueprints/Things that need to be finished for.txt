@@ -1,26 +1,27 @@
 --------------------
 !!!!!!!!!!!!!!!!!!!
 ---Tasks organized by urgency---
-1.Lack of collision b/w arrows and targets
-2.Camera is not set in right place due to lack of players until end of start cutscene
-3.Get UI to work w/existing bash UI
-4.Implement different forces for keyboard/controller to mimic flex strengths for arrows
-4.Try to smooth out camera movement + add to cutscenes
-5.Fix arrow indicator layering
-6.Juice + polish
+1.Camer not overlooking shoulder of first player
+2.lack of destroying arrows & making sure force w flexes still works & Arrow freezing in strange places
+	-And also finicky collisions
+2.Implement different forces for keyboard/controller to mimic flex strengths for arrows
+3.Figure out how to test actual  game/w multiple players
+4.Get UI to work w/existing bash UI
+5.Try to smooth out camera movement + add to cutscenes
+6.Fix arrow indicator layering
+7.Juice + polish
 
 !!!!!!!!!!!!!!!!!!!!!!!!
 ------------------------
 --------------
 Done today:
-Fix double player spawn issue
-Fix keyboard rotation
-Fix cutscene and player turn ui infinite loop bug and improve w/ widget animations, finish end cutscene UI animations
-Work on new and improved(!) arrow/target collision bug
-
+Fix camera not going to player's positions when not in practice mode
+Fix players after practice mode not being registered by turn manager
+	NOTE - setting proper player numbers will require testing, how to do this
+Fix arrows missing the target but not really apparently
+Fix arrows not destroying at correct distance, in the event they do not hit the groun
 Working on:
-Working on cutscenes - next is camera movement + any adding art assets that is necessary for  this to look good
-Working on arrows not colliding with targets at high speeds
+
 
 ---------------
 
@@ -40,6 +41,7 @@ Bugs:
 		-Directly related to the newfound speed of the arrows, plus lerp does not seem to inherently take into account 		physics
 		-Maybe make it so when arrow is further than the target, stop moving forward, then force downwards to hit 		ground?
 		-Or halfway between the forward pos & player? Except this ignores the force that the players flex w
+		-Ok they occasionally collide, unfortunately seems to be an issue of luck
 Polish: 	
 
 	*Juice ideas: //Tertiary Task//
@@ -48,10 +50,7 @@ Polish:
 	*Cutscenes //Secondary Task//
 		-Ideas:
 			+Aerial zoom in/out to position in front of target?
-			+End cutscene revolves camera around the player that won/winning player's target w/arrows on it w Ui 			that says who won?
-			+Will likely need the 5.6 bugs fixed before testing on this can be properly done
-			!!Implemented needs testing : UI telling which player's turn it is, plus start text, plus end text
-			!!!For loop does not work w/delay use branch??!!!
+			+End cutscene revolves camera around the player that won/winning player's target w/arrows on it 			testing : UI telling which player's turn it is, plus start text, plus end tex	
 
 	*Add consideration for how to differentiate between flexes for controller/keyboard (time held? Force on thumbstick?) 
 
