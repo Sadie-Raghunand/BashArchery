@@ -4,8 +4,9 @@
 1.Arrow freezing in strange places (above target??)
 	- Make separate arrows that do nothing, but insatiate at position the target is hit?
 2.Targets change location out of frame
-	- I think the local pos of the target rings are being used as offset and they don't chnge
+	- I think the local pos of the target rings are being used as offset and they don't change
 	- 
+3.Sequences for cutscenes don't play, plus make sure the animations look good when they do (not high priority, just get it working)
 3.Get UI to work w/existing bash UI
 4.Fix arrow indicator layering
 5.Juice + polish
@@ -14,12 +15,9 @@
 ------------------------
 --------------
 Done today:
-Fix camera overlooking shoulder after intro cutscene in actual game not just practice mode
-Work on and get some slight movement for intro cutscene unintentionally
-Arrows are detected by targets 
-Crashing out bc every single piece of base functionality is broken for no reason and it feels like ive remade this game at least 3 times in parts minigame of theseus fr
-Add changes to force on arrow for keyboard controller based on how many seconds the button is held, cap at 2 
-Players start in practice mode at the same location so they can shoot at the same target to aoid only one player getting a practice mode
+Hopefully fixed arrow freezing in odd places???? Please???
+Made intro and end cutscene movement sequences
+
 
 Working on:
 Target location change broken and fixing arrow freezing position
