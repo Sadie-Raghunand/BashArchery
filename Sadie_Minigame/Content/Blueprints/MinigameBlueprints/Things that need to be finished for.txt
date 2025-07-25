@@ -1,11 +1,9 @@
 --------------------
 !!!!!!!!!!!!!!!!!!!
 ---Tasks organized by urgency---
-1.Test changing turns
-2.Get UI to work w/existing bash UI
-3.Check end cutscene
-4.Fix arrow indicator layering
-5.Juice + polish
+1.Get UI to work w/existing bash UI
+2.Fix arrow indicator layering
+3.Juice + polish
 
 ---Once over---
 1.Arrow freezing in strange places
@@ -23,8 +21,7 @@ Make end cutscene Ui work when there is a tie between players
 Create and implement a practice target specifically for practice mode to simplify the transition between practice mode and normal gameplay
 
 Working on:
-Arrows freeze still slightly broken
-Get cutscenes to actually play
+Polishing and finalizing stuff and score UI
 
 ---------------
 
