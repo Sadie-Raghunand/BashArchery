@@ -1,9 +1,10 @@
 --------------------
 !!!!!!!!!!!!!!!!!!!
 ---Tasks organized by urgency---
-1.Get UI to work w/existing bash UI
-2.Fix arrow indicator layering
-3.Juice + polish
+1. Targets in game go to strange places if you shoot at all during practice
+2.Get UI to work w/existing bash UI
+3.Fix arrow indicator layering
+4.Juice + polish
 
 ---Once over---
 1.Arrow freezing in strange places
@@ -14,11 +15,8 @@
 ------------------------
 --------------
 Done today:
-Get cutscenes to actually play
-Fix bugs with end level sequence playing incorrectly
-Fix winner not being calculated correctly
-Make end cutscene Ui work when there is a tie between players
-Create and implement a practice target specifically for practice mode to simplify the transition between practice mode and normal gameplay
+Practice vs game targets only show in their respective modes
+Fix new bug where arrows spawn too far away from player
 
 Working on:
 Polishing and finalizing stuff and score UI
