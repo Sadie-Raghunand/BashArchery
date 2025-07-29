@@ -1,7 +1,7 @@
 --------------------
 !!!!!!!!!!!!!!!!!!!
 ---Tasks organized by urgency---
-1. Targets in game go to strange places if you shoot at all during practice
+1.Where'd the indicator go?????????
 2.Get UI to work w/existing bash UI
 3.Fix arrow indicator layering
 4.Juice + polish
@@ -17,9 +17,13 @@
 Done today:
 Practice vs game targets only show in their respective modes
 Fix new bug where arrows spawn too far away from player
+Fix new (not really its been a problem I think I just only now noticed it) bug where all target rings get childed to same parent internally
+Finish UI for scores of players
+Add animation when score changes
+
 
 Working on:
-Polishing and finalizing stuff and score UI
+Polishing and finalizing (or trying) stuff and score UI
 
 ---------------
 
@@ -33,12 +37,9 @@ Bugs:
 	*Arrow indicators layer properly, though distances need to be experimented with, but they displace on the world x axis, 	need to displace on the player's relative x axis
 		- Arrow indicators also depend on position of the forwardPos object, either this or arrow destroying needs to 		be independent of that
 
-	*Project keeps crashing but only when I am away from it for like 5+ minutes
-
-
 Polish: 	
 
-	*Juice ideas: //Tertiary Task//
+	*Juice ideas:
 		- Use FTC Tween plugin (possibly go back and polish target and camera movement with this)
 
 	*UI to show how many points each player has gotten + how many arrows they have left
