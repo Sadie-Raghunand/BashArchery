@@ -2682,3 +2682,156 @@ FPackageName: Skipped package /Game/Assets/UI/T_HeroHeadshot has a valid, mounte
 [2025.09.25-12.52.58:022][ 10]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
 [2025.09.25-12.52.58:022][ 10]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
 [2025.09.25-12.52.58:022][ 10]AssetCheck: /Game/Blueprints/ArcheryMinigameBlueprints/UI/BP_ArcheryUI Validating asset
+[2025.09.25-12.55.41:250][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.09.25-12.56.44:525][979]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3169.802979
+[2025.09.25-12.56.44:621][987]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.25-12.56.44:622][987]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3169.886963, Update Interval: 329.387482
+[2025.09.25-12.57.04:659][639]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.09.25-12.57.04:717][639]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-12.57.04:768][639]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/ArcheryMinigameBlueprints/UI/BP_ArcheryUI] ([2] browsable assets)...
+[2025.09.25-12.57.04:770][639]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/ArcheryMinigameBlueprints/UI/BP_ArcheryUI.BP_ArcheryUI]
+[2025.09.25-12.57.04:770][639]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/ArcheryMinigameBlueprints/UI/BP_ArcheryUI]
+[2025.09.25-12.57.04:822][639]LogSavePackage: Moving output files for package: /Game/Blueprints/ArcheryMinigameBlueprints/UI/BP_ArcheryUI
+[2025.09.25-12.57.04:822][639]LogSavePackage: Moving '../../../../../../Games/GitHub/BashArchery/Sadie_Minigame/Saved/BP_ArcheryUI0BBAAF154A012B70037621B695D0B36B.tmp' to '../../../../../../Games/GitHub/BashArchery/Sadie_Minigame/Content/Blueprints/ArcheryMinigameBlueprints/UI/BP_ArcheryUI.uasset'
+[2025.09.25-12.57.04:830][639]LogFileHelpers: InternalPromptForCheckoutAndSave took 113.036 ms (total: 1.74 sec)
+[2025.09.25-12.57.04:883][639]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-12.57.04:883][639]LogContentValidation: Enabled validators:
+[2025.09.25-12.57.04:883][639]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-12.57.04:883][639]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-12.57.04:883][639]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-12.57.04:883][639]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-12.57.04:883][639]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-12.57.04:883][639]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-12.57.04:883][639]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2025.09.25-12.57.04:883][639]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2025.09.25-12.57.04:884][639]AssetCheck: /Game/Blueprints/ArcheryMinigameBlueprints/UI/BP_ArcheryUI Validating asset
+[2025.09.25-12.57.36:088][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.09.25-12.57.36:154][216]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-12.57.36:218][216]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/ArcheryMinigameBlueprints/BP_ArcheryPlayer] ([2] browsable assets)...
+[2025.09.25-12.57.36:224][216]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/ArcheryMinigameBlueprints/BP_ArcheryPlayer.BP_ArcheryPlayer]
+[2025.09.25-12.57.36:224][216]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/ArcheryMinigameBlueprints/BP_ArcheryPlayer]
+[2025.09.25-12.57.36:300][216]LogSavePackage: Moving output files for package: /Game/Blueprints/ArcheryMinigameBlueprints/BP_ArcheryPlayer
+[2025.09.25-12.57.36:300][216]LogSavePackage: Moving '../../../../../../Games/GitHub/BashArchery/Sadie_Minigame/Saved/BP_ArcheryPlayer9A5E5BC74589AB0018E4D986069F318D.tmp' to '../../../../../../Games/GitHub/BashArchery/Sadie_Minigame/Content/Blueprints/ArcheryMinigameBlueprints/BP_ArcheryPlayer.uasset'
+[2025.09.25-12.57.36:307][216]LogFileHelpers: InternalPromptForCheckoutAndSave took 153.097 ms (total: 1.89 sec)
+[2025.09.25-12.57.36:370][216]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-12.57.36:370][216]LogContentValidation: Enabled validators:
+[2025.09.25-12.57.36:370][216]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-12.57.36:370][216]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-12.57.36:370][216]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-12.57.36:370][216]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-12.57.36:370][216]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-12.57.36:370][216]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-12.57.36:370][216]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2025.09.25-12.57.36:370][216]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2025.09.25-12.57.36:370][216]AssetCheck: /Game/Blueprints/ArcheryMinigameBlueprints/BP_ArcheryPlayer Validating asset
+[2025.09.25-12.58.06:232][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.09.25-12.58.06:246][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.25-12.58.06:301][ 71]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/ArcheryMinigameBlueprints/IntroLevelSequenceManager] ([2] browsable assets)...
+[2025.09.25-12.58.06:302][ 71]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/ArcheryMinigameBlueprints/IntroLevelSequenceManager]
+[2025.09.25-12.58.06:323][ 71]LogSavePackage: Moving output files for package: /Game/Blueprints/ArcheryMinigameBlueprints/IntroLevelSequenceManager
+[2025.09.25-12.58.06:323][ 71]LogSavePackage: Moving '../../../../../../Games/GitHub/BashArchery/Sadie_Minigame/Saved/IntroLevelSequenceManagerB1FCF3B44F86FD151F875282BB736F7D.tmp' to '../../../../../../Games/GitHub/BashArchery/Sadie_Minigame/Content/Blueprints/ArcheryMinigameBlueprints/IntroLevelSequenceManager.uasset'
+[2025.09.25-12.58.06:330][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.179 ms (total: 1.98 sec)
+[2025.09.25-12.58.06:385][ 71]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.25-12.58.06:385][ 71]LogContentValidation: Enabled validators:
+[2025.09.25-12.58.06:385][ 71]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.25-12.58.06:385][ 71]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.25-12.58.06:385][ 71]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.25-12.58.06:385][ 71]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.25-12.58.06:385][ 71]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.25-12.58.06:385][ 71]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.25-12.58.06:385][ 71]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2025.09.25-12.58.06:385][ 71]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2025.09.25-12.58.06:385][ 71]AssetCheck: /Game/Blueprints/ArcheryMinigameBlueprints/IntroLevelSequenceManager Validating asset
+[2025.09.25-12.58.07:671][181]LogSlate: Window 'IntroLevelSequenceManager' being destroyed
+[2025.09.25-12.58.07:679][181]LogSlate: Window 'IntroLevelSequenceManager' being destroyed
+[2025.09.25-12.58.07:709][181]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-12.58.07:710][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-12.58.07:815][181]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-12.58.07:815][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-12.58.07:820][181]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-12.58.07:821][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-12.58.07:847][181]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-12.58.07:847][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-12.58.07:895][181]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.09.25-12.58.08:435][241]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.09.25-12.58.08:465][241]LogStall: Shutdown...
+[2025.09.25-12.58.08:465][241]LogStall: Shutdown complete.
+[2025.09.25-12.58.08:502][241]LogSlate: Window 'Sadie_Minigame - Unreal Editor' being destroyed
+[2025.09.25-12.58.08:600][241]Cmd: QUIT_EDITOR
+[2025.09.25-12.58.08:600][242]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.09.25-12.58.08:603][242]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.09.25-12.58.08:604][242]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.09.25-12.58.08:604][242]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.09.25-12.58.08:608][242]LogWorld: UWorld::CleanupWorld for MinigameLevel, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-12.58.08:609][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-12.58.08:615][242]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.09.25-12.58.08:615][242]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.09.25-12.58.08:616][242]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.09.25-12.58.08:620][242]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-12.58.08:621][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-12.58.08:623][242]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-12.58.08:623][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-12.58.08:627][242]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-12.58.08:628][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-12.58.08:630][242]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-12.58.08:630][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-12.58.08:633][242]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.09.25-12.58.08:633][242]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.09.25-12.58.08:635][242]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.09.25-12.58.09:187][242]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.09.25-12.58.09:187][242]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.09.25-12.58.09:187][242]LogAudio: Display: Audio Device unregistered from world 'MinigameLevel'.
+[2025.09.25-12.58.09:189][242]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.09.25-12.58.09:189][242]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.09.25-12.58.09:191][242]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.09.25-12.58.09:199][242]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.09.25-12.58.09:199][242]LogAudio: Display: Audio Device Manager Shutdown
+[2025.09.25-12.58.09:200][242]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.09.25-12.58.09:204][242]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.09.25-12.58.09:208][242]LogExit: Preparing to exit.
+[2025.09.25-12.58.09:251][242]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.09:260][242]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.25-12.58.10:002][242]LogEditorDataStorage: Deinitializing
+[2025.09.25-12.58.10:135][242]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.09.25-12.58.10:147][242]LogExit: Editor shut down
+[2025.09.25-12.58.10:148][242]LogExit: Transaction tracking system shut down
+[2025.09.25-12.58.10:280][242]LogExit: Object subsystem successfully closed.
+[2025.09.25-12.58.10:356][242]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.09.25-12.58.10:414][242]LogMemoryProfiler: Shutdown
+[2025.09.25-12.58.10:415][242]LogNetworkingProfiler: Shutdown
+[2025.09.25-12.58.10:415][242]LoadingProfiler: Shutdown
+[2025.09.25-12.58.10:415][242]LogTimingProfiler: Shutdown
+[2025.09.25-12.58.10:415][242]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.09.25-12.58.10:415][242]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.09.25-12.58.10:689][242]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.09.25-12.58.10:723][242]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.09.25-12.58.10:723][242]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B168A6396-4C45-DDFA-5A83-4290B7D653C2%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.0-43139311%2B%2B%2BUE5%2BRelease-5.6&UserID=6867a30547fc1681f5fa069df8452540%7C432c38ee69ea4457a592f8a71ab1e8d8%7C53f8c909-b8d7-4978-8dc4-81dbe9228eb3&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.09.25-12.58.11:274][242]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.09.25-12.58.11:279][242]LogNFORDenoise: NFORDenoise function shutting down
+[2025.09.25-12.58.11:279][242]RenderDocPlugin: plugin has been unloaded.
+[2025.09.25-12.58.11:284][242]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.09.25-12.58.11:284][242]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.09.25-12.58.11:284][242]LogPakFile: Destroying PakPlatformFile
+[2025.09.25-12.58.11:674][242]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.09.25-12.58.11:706][242]LogExit: Exiting.
+[2025.09.25-12.58.11:720][242]Log file closed, 09/25/25 08:58:11
